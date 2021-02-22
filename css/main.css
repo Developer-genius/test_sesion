@@ -251,6 +251,9 @@ p.footer__social-icons a:hover{
 	background-color: #0052c2;
 }
 
+.hamburger-menu{
+	display:none;
+  }
 /*MEDIA  ПОД ТЕЛЕФОЕ */
 @media  (max-width:1200px) {
 
@@ -292,14 +295,15 @@ p.footer__social-icons a:hover{
 
 .familia{
 		margin-top: -500px;
-		font-size: 50px;
+		font-size: 60px;
 		line-height: 38px;
-		margin-bottom: 45px;
+		margin-bottom: 55px;
+		
 		}
 
 .deitel{
-		font-size: 35px;
-		line-height: 38px;
+		font-size: 45px;
+		line-height: 58px;
 		}
 
 .portfolio{
@@ -319,6 +323,13 @@ p.footer__social-icons a:hover{
 			bottom: 250px;
 			left: 50%;
 		}
+		.hamburger-menu{
+			display:block;
+			position: absolute;
+		}
+		#toggleThemeBtn{
+			display: none;
+		}
 }
 @media(max-width:770px){
 	.familia{
@@ -333,19 +344,16 @@ p.footer__social-icons a:hover{
 		
 		display: flex;
 		flex-wrap: wrap;
-		margin-left: 170px;
-		/* margin-right: 0%; */
+		margin-left: 126px;
 		width:100%;
 		box-sizing: border-box;
 		margin-bottom: 30px;
-		/* padding-left: 15px;
-		padding-right:15px; */
 		text-align: center;
 	}
 	.mt1 , .mt2 , .mt3{
 		display: flex;
 		flex-wrap: wrap;
-		margin-left: 22%;
+		margin-left: 19%;
 		margin-right: 50%;
 		width:100%;
 		box-sizing: border-box;
@@ -361,6 +369,16 @@ p.footer__social-icons a:hover{
 		bottom: 130px;
 		left: 50%;
 	}
+	.deitel{
+		font-size: 35px;
+		line-height: 38px;
+		}
+
+.portfolio{
+		padding-top: 40px;
+		padding-bottom:50px ;
+		}
+	
 }
 
 @media(max-width:635px){
@@ -379,7 +397,6 @@ p.footer__social-icons a:hover{
 }
 @media(max-width:609px){
 	.col-4{
-		
 		display: flex;
 		flex-wrap: wrap;
 		margin-left: 16%;
@@ -394,7 +411,6 @@ p.footer__social-icons a:hover{
 }
 @media(max-width:587px){
 	.col-4{
-		
 		display: flex;
 		flex-wrap: wrap;
 		margin-left: 13%;
@@ -409,7 +425,6 @@ p.footer__social-icons a:hover{
 }
 @media(max-width:541px){
 	.col-4{
-		
 		display: flex;
 		flex-wrap: wrap;
 		margin-left: 11%;
@@ -427,7 +442,6 @@ p.footer__social-icons a:hover{
 		right: 40px;
 		bottom: 100px;			
 		color: #fff;
-		/* background-color: #000; */
 		text-align: center;
 		font-size: 30px;
 		padding: 15px;
@@ -437,7 +451,6 @@ p.footer__social-icons a:hover{
 }
 @media(max-width:511px){
 	.col-4{
-		
 		display: flex;
 		flex-wrap: wrap;
 		margin-left: 9%;
@@ -452,7 +465,6 @@ p.footer__social-icons a:hover{
 }
 @media(max-width:461px){
 	.col-4{
-		
 		display: flex;
 		flex-wrap: wrap;
 		margin-left: 6%;
@@ -467,7 +479,6 @@ p.footer__social-icons a:hover{
 }
 @media(max-width:437px){
 	.col-4{
-		
 		display: flex;
 		flex-wrap: wrap;
 		margin-left: 8%;
@@ -482,7 +493,6 @@ p.footer__social-icons a:hover{
 	.card{
 		width: 250px;
 		height: 250px;
-		/* position: relative; */
 		perspective:1000px;
 	  }
 }
@@ -548,6 +558,15 @@ p.footer__social-icons a:hover{
 		bottom: 100px;
 		left: 50%;
 	}
+	.familia{
+		margin-top: -200px;
+		font-size: 40px;
+	}
+	.deitel{
+		font-size: 25px;
+		margin-top: 30px;
+		margin-top: -35px;
+	}
 }
 @media(max-width:376px){
 	.mt1 , .mt2 , .mt3{
@@ -570,6 +589,15 @@ p.footer__social-icons a:hover{
 		position: absolute;
 		bottom: 100px;
 		left: 50%;
+	}
+	.familia{
+		margin-top: -200px;
+		font-size: 40px;
+	}
+	.deitel{
+		font-size: 25px;
+		margin-top: 30px;
+		margin-top: -35px;
 	}
 }
 @media(max-width:370px){
@@ -595,7 +623,7 @@ p.footer__social-icons a:hover{
 	.mt1 , .mt2 , .mt3{
 		display: flex;
 		flex-wrap: wrap;
-		margin-left: 1%;
+		margin-left: 2%;
 		margin-right: 0%;
 		width:100%;
 		box-sizing: border-box;
@@ -646,8 +674,6 @@ p.footer__social-icons a:hover{
 		width:100%;
 		box-sizing: border-box;
 		margin-bottom: 30px;
-		/* padding-left: 15px;
-		padding-right:15px; */
 		text-align: center;
 	}
 
@@ -821,19 +847,9 @@ body.dark_theme .title {
 	padding: 0;
   }
   
-  .hamburger-menu{
-	display:none;
-  }
+ 
   
-  /* Шапка адаптивная */
-  @media (max-width: 1200px) {
-  
-	.hamburger-menu{
-	  display:block;
-	  position: absolute;
-	}
-   }
-   
+
   
   
   
@@ -844,18 +860,22 @@ body.dark_theme .title {
   
   #menu__toggle:checked ~ .menu__btn > span {
 	transform: rotate(45deg);      /* поварачивает полоски бургера*/
+	background-color: #fff;
   }
   #menu__toggle:checked ~ .menu__btn > span::before {
 	top: 0;
 	transform: rotate(0);  /* поварачивает полоски бургера*/
+	background-color: #fff;
   }
   #menu__toggle:checked ~ .menu__btn > span::after {
 	top: 0;
 	transform: rotate(90deg);  /* поварачивает полоски бургера*/
+	background-color: #fff;
   }
   #menu__toggle:checked ~ .menu__box {   /* Меню будет видно если  индефикатор будет*/
 	visibility: visible;
 	right:  0;                    /* На сколько сместиться меню от левого края*/
+	
   }
   
   .menu__btn {
@@ -909,7 +929,7 @@ body.dark_theme .title {
   .menu__item {
 	display: block;
 	padding: 12px 24px;
-	color: rgb(100, 92, 92);  /* Цвет меню*/
+	color: rgb(187, 184, 184);  /* Цвет меню*/
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 	font-weight: 600;
