@@ -968,4 +968,5 @@ body.dark_theme .title {
 }
 .slide{
 	background-color: #fafafa;
+	border-radius: 15px;
 }
