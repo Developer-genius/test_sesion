@@ -50,3 +50,13 @@ toggleThemeBtnMobile.onclick = () => {
   toggleThemeBtnMobile.innerText = document.body.classList.contains("dark_theme") ? "Тёмная тема" : "Светлая тема"
   localStorage.theme = document.body.className || "light"
  }
+
+
+
+
+// ! Слайдер
+
+$(function(){
+
+  $(".rev__slider").slick()
+})

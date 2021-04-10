@@ -942,3 +942,19 @@ body.dark_theme .title {
 
 
 
+/* !слайдер */
+
+
+.photo{
+	height: 40px;
+	width: 40px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border-radius: 50%;
+}
+
+.name{
+	font-size: 40px;
+	font-weight: 900;
+}
