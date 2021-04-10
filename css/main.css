@@ -960,7 +960,8 @@ body.dark_theme .title {
 }
 .rev__slider{
 	max-width: 600px;
-	margin: 50 auto;
+	margin: 0 auto;
+	margin-top: 70px;
 	display: flex;
 	justify-content: center;
 	align-self: center;
