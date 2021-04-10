@@ -958,3 +958,7 @@ body.dark_theme .title {
 	font-size: 40px;
 	font-weight: 900;
 }
+.rev__slider{
+	width: 600px;
+	margin: 0 auto;
+}
