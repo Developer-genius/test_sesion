@@ -965,3 +965,6 @@ body.dark_theme .title {
 	justify-content: center;
 	align-self: center;
 }
+.slide{
+	background-color: #fafafa;
+}
