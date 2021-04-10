@@ -959,7 +959,7 @@ body.dark_theme .title {
 	font-weight: 900;
 }
 .rev__slider{
-	width: 600px;
+	max-width: 600px;
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
