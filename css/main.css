@@ -952,6 +952,7 @@ body.dark_theme .title {
 	background-size: cover;
 	background-position: center;
 	border-radius: 50%;
+	margin:25px 0 15px 15px ;
 }
 
 .name{
@@ -967,7 +968,6 @@ body.dark_theme .title {
 	align-self: center;
 }
 .slide{
-	min-width: 250px;
 	background-color: #fafafa;
 	border-radius: 15px;
 	margin-left: 15px;
