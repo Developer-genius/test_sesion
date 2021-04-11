@@ -967,6 +967,7 @@ body.dark_theme .title {
 	align-self: center;
 }
 .slide{
+	min-width: 250px;
 	background-color: #fafafa;
 	border-radius: 15px;
 	margin-left: 15px;
