@@ -62,6 +62,6 @@ $(function(){
     slidesToShow: 3,
   slidesToScroll: 1,
   autoplay: true,
-  autoplaySpeed: 1000,
+  autoplaySpeed: 3000,
   })
 })
