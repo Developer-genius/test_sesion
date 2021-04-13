@@ -940,7 +940,13 @@ body.dark_theme .title {
 	background-color: #08a4e7;     /* Цвет  при наведении */
   }
 
-
+.img_logo{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	left: 990px;
+	top: 335px;
+}
 
 /* !слайдер */
 
